@@ -30,4 +30,7 @@ app.listen(PORT, function() {
   console.log("connected port: " +PORT);
 });
 
+// pseudocode/thoughts
+// I just need to take the values and inputs from the user in the survey page and insert them into the peopleArray in friends.js
+// I believe I also have to match the users input with the closest match of an already created friend
 
