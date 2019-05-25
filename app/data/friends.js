@@ -8,6 +8,10 @@
 
 // var someone = new newPerson(Bobby, Pizza, [1,2,3,4,5,1,2,3,4,5]);
 
+document.getElementById("dropdown-item").addEventListener("click", function(event){
+    event.preventDefault()
+  });
+
 let peopleArray =[
     {
         "name":"Ahmed",
